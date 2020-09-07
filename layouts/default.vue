@@ -2,7 +2,8 @@
   <div class="layout">
     <aside>
       <div class="logo-wrapper">
-        <img class="logo" src="~/assets/images/logo.png" />
+        <img class="logo" src="~/assets/images/logo.svg" />
+        <span class="name">modrinth</span>
       </div>
       <nav>
         <section class="links">
@@ -176,10 +177,17 @@
       display: flex;
       height: 3.5rem;
       padding: 0 1.5rem;
+      font-family: 'Montserrat', sans-serif;
 
       .logo {
         height: 2rem;
         width: auto;
+      }
+
+      .name {
+        font-family: 'Montserrat Alternates';
+        margin-left: 0.4rem;
+        font-size: 1.3rem;
       }
     }
 
